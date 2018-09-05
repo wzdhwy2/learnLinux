@@ -1,0 +1,82 @@
+cat: abcdefg: 没有那个文件或目录
+cat: hijklnm: 没有那个文件或目录
+cat: opqrst: 没有那个文件或目录
+cat: uvwxyz: 没有那个文件或目录
+
+
+
+标准重定向：  >  or  <
+错误重定向：  2>   or  2<
+追加(不覆盖)：  >>  or  << or  2>> or  2<<
+
+
+
+管道符：把左边的输出作为右边的输入
+cat 123.txt | more | cat | more | cat | more | cat | tail | head | cat 
+
+
+
+通配符
+? *
+
+
+
+转义符
+""  ''  ``  \  
+
+
+
+环境变量,既然强调了那一定十分重要！把十个常用的看眼熟
+$PATH的作用？
+export的作用：局部变量转全局变量
+   Linux系统中最重要的10个环境变量
+HOME
+	用户的主目录（即家目录）
+SHELL
+	用户在使用的Shell解释器名称
+HISTSIZE
+	输出的历史命令记录条数
+HISTFILESIZE
+	保存的历史命令记录条数
+MAIL
+	邮件保存路径
+LANG
+	系统语言、语系名称
+RANDOM
+	生成一个随机数字
+PS1
+	Bash解释器的提示符
+PATH
+	定义解释器搜索用户执行命令的路径
+EDITOR
+	用户默认的文本编辑器
+
+
+
+vim
+一进入为“命令模式”，插入为“编辑模式”，：为“末行模式”
+命令模式
+	dd 5dd
+	yy 5yy
+	shift + insert
+	X,a,insert...
+末行模式
+	:set nu
+	:10(光标快速移动到某行)
+
+
+
+
+逻辑与，前面满足才执行后面
+[ -e /usr/michael/learning/learnlinux/linux/ ] && echo "Linux"
+
+
+逻辑或，前面执行返回失败才执行
+[ $USER = root ] || echo "apps"
+
+逻辑非
+[ $USER!=root ] && echo "apps" || echo "root"
+“满足 非root 就输出apps“
+“不满足 输出apps 就输出root”
+
+
