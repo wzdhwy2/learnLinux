@@ -1,0 +1,161 @@
+
+
+
+重定向
+	标准重定向：  >  or  <
+	错误重定向：  2>   or  2<
+	#追加(不覆盖)：  >>  or  << or  2>> or  2<<
+
+
+
+管道符：把左边的输出作为右边的输入
+cat 123.txt | more | cat | more | cat | less | cat | tail | head | cat 效果等于 cat 123.txt
+
+
+
+通配符
+? * 
+？代表任意一个字符
+* 代表任意多个字符
+
+
+转义符
+""  ''  ``  \  
+双引号：
+单引号：
+反单引号：
+斜杠：转义特殊字符$ 空格 之类的
+
+
+
+
+环境变量,既然强调了那一定十分重要！把十个常用的看眼熟
+$PATH的作用？
+export的作用：局部变量转全局变量
+______________________________________
+HOME    用户的主目录（即家目录）
+SHELL   用户在使用的Shell解释器名称
+HISTSIZE        输出的历史命令记录条数
+HISTFILESIZE    保存的历史命令记录条数
+MAIL    邮件保存路径
+LANG    系统语言、语系名称
+RANDOM  生成一个随机数字
+PS1     Bash解释器的提示符
+PATH    定义解释器搜索用户执行命令的路径
+EDITOR  用户默认的文本编辑器
+
+
+
+
+vim
+一进入的模式为:“命令模式” 
+插入为:“编辑模式”  
+":wq ": 为“末行模式”
+
+命令模式中
+	dd 5dd 剪切
+	yy 5yy
+	shift + insert 或   p  粘贴
+	O    光标插入下一行
+	u    撤销
+末行模式中
+	:set nu
+	:10(光标快速移动到某行)
+
+
+
+
+
+【shell注意事项】
+#echo 'll -h'
+#echo "ll -h"————注意引号的区分
+#ll -h——————可能命令不包含在bash中
+#echo 'ls -alh'
+ls -alh
+echo “查看当前目录详细情况！“
+
+
+
+
+
+
+【条件测试语句】,分为四种
+
+
+1.文件判断（符）
+参数;
+-d	测试文件是否为目录类型
+-e	测试文件是否存在
+-f	判断是否为一般文件
+-r	测试当前用户是否有权限读取
+-w	测试当前用户是否有权限写入
+-x	测试当前用户是否有权限执行
+
+示例;
+[ -e ./shell.txt  ] && echo "shell.txt 文件存在！ "
+举一反三；（利用shell中的参数 $? 能记录命令执行结果）
+ls -alh shell.txt
+[ $? -eq 0 ] && echo "shell.txt 验证了文件确实存在！ "·
+
+
+
+
+2.逻辑运算（符）
+ &&  逻辑与，前面满足才执行后面
+[ -e /usr/michael/learning/learnlinux/linux/ ] && echo "Linux"
+
+ ||  逻辑或，前面执行返回失败才执行
+[ $USER = root ] || echo "apps"
+
+ !=  逻辑非
+[ $USER!=root ] && echo "apps" || echo "root"
+“满足 非 root 就输出apps , 不满足 输出apps 就输出root”
+
+举一反三；
+[ -e ./shell.txt ]
+echo $?
+#[apps@test5153 linux]$ 0
+[ -e ./shell.txt ] && echo "shell.txt 文件存在！ "
+#shell.txt 文件存在！
+ls -alh shell.txt
+[ $? -eq 0 ] && echo "shell.txt 验证了文件确实存在！" || echo "shell.txt 文件不存在！ "
+
+
+echo $USER
+#apps
+[ $USER = root  ] && echo "当前用户为root" || echo "当前用户为$USER"
+#当前用户为apps
+
+
+
+
+3.整数比较运算（符）
+参数;
+-eq	是否等于
+-ne	是否不等于
+-gt	是否大于
+-lt	是否小于
+-le	是否等于或小于
+-ge	是否大于或等于
+
+示例：
+freeMem=`free -h | grep Mem: | awk '{print $4}'`
+(利用free -h 看内存情况，gerp XXX 取文本中的关键字所在行，awk....取某个值，最后赋值给自定义的名为freeMen的变量)
+echo $freeMem
+[ $freeMem -le 1024 ] &&  echo "内存不足" || echo "内存充足"
+
+
+
+4.字符串比较运算（符）
+参数；
+=	比较字符串内容是否相同
+!=	比较字符串内容是否不同
+-z	判断字符串内容是否为空
+
+例子；
+echo $USER
+[ $USER != root ] && echo "非root" || echo "是root"
+
+
+
+
