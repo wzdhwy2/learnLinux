@@ -5,8 +5,8 @@
 
 cd /usr/michael/learnlinux/
 git commit -am  "`date`"  
+echo '———————————— 上 git commit -am ———— 下 git psuh ———————————————'
 git push
 date &>> crontab_git_commit_am_date.log
 cd -
-
 
