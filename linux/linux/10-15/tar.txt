@@ -1,0 +1,21 @@
+打包与解压缩 命令 tar 
+实例
+	cd ~
+	echo 123 > 1.txt
+	tar -cvf 1.txt.tar.bz2 1.txt
+	tar -cvf 1.txt.tar.gz 1.txt
+	ll
+	tar -xvf 1.txt.tar.bz2 1.txt
+	tar -xvf 1.txt.tar.gz 1.txt
+
+没必要记-j（gz格式） 或-z （bz2格式）参数，
+因为没有这个参数照样可以打包或解压文件，
+如上所示
+	-c （打包压缩）或-x（解压）
+	-v （显示过程）
+	-f （目标文件名）
+
+另外，压缩包命名格式是
+	XXX.tar.bz2
+	XXX.tar.gz
+

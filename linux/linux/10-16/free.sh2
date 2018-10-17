@@ -1,0 +1,12 @@
+#/bin/bash/
+
+ipadd=` ifconfig eth0 | cut -d ":" -f 2 `
+ip=` echo $ipadd | cut -d " " -f 4 `
+
+free=`free -m | cut -d " " -f 17`
+total=`free -m | cut -d " " -f 11`
+freeS=$[$total/1]
+
+[ $free -le $freeS ] && echo 服务器IP：$ip ，物理内存共：$total'M' ， 剩余$free'M' ，已不足10%！ |  mail -s  "$ip 服务器 内存预警"  wzdhwy2@163.com 
+date &>>`pwd`'/'free.sh.log
+

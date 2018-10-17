@@ -1,0 +1,54 @@
+#/bin/bash/
+#内存空间邮件报警脚本
+#实际验证是写脚本远不如zabbix官方使用的取值方法好，各种环境变量和设备名称的不同让取值有波动，必须要学会更强大的命令，从硬性关键字中取值！！！
+
+free=` free -h |  cut -d " " -f 25 ` 
+swap=` free -h |  cut -d " " -f 10 `
+
+free=` echo $free | cut -d "G" -f 1 `
+swap=` echo $swap | cut -d "G" -f 1 `
+
+##echo `ifconfig` | cut -d : -f 8 >ipadd---为什么智商倒退？不知道借鉴上面？
+###ip=`cat ipadd`
+##ip=` cat ipadd | cut -d " " -f 1 `
+#ip=` ifconfig -a | cut -d : -f 8 `----两次cut命令前后取到的值不同？
+#ip=` echo $ip | cut -d " " -f 1 `
+ip=` ifconfig eth0 | cut -d ":" -f 2 `
+#ip=` ifconfig -a | cut -d ":" -f 2 `----但-a参数 和 eth选项取的值相同？
+ip=` echo $ip | cut -d " " -f 4 `
+
+#—————————————————————————————————————
+
+#toatl=`free  |  cut -d " " -f 8`
+total=`free -h |  cut -d " " -f 11`
+swaptotal=`free -h |  cut -d " " -f 10`
+
+#—————————————————————————————————————
+
+#-eq     是否等于
+#-le     是否等于或小于
+
+[ ` echo "$free < 2" | bc ` -eq 1 ] && echo 物理内存共：$total ，剩余$free'G' |  mail -s  "$ip 服务器 free预警"  wzdhwy2@163.com 
+[ ` echo "$swap < 3" | bc ` -eq 1 ] && echo 虚拟内存共：$swaptotal ，剩余$swap'G' |  mail -s "$ip  服务器 swap报警"  wzdhwy2@163.com 
+#满足“ ”里的条件就发邮件
+
+
+
+#——————————————————————————————————————————————————————————————————————————————————————————————————
+
+#大小
+#df -h | cut -d "t" -f 1 | cut -d "o" -f 2 | cut -d " " -f 24 | cut -d "r" -f 2 | cut -d "s" -f 3
+#[used]已使用的
+#df -h | cut -d "t" -f 1 | cut -d "o" -f 2 | cut -d " " -f 26 | cut -d "r" -f 2 | cut -d "s" -f 3
+#已使用率
+#echo='df -h | cut -d "t" -f 1 | cut -d "o" -f 2 | cut -d " " -f 31 | cut -d "r" -f 2 | cut -d "s" -f 3 '>>free.sh
+#[apps@test5153 10-15]$ echo=`df -h | cut -d "t" -f 1 | cut -d "o" -f 2 | cut -d " " -f 31 | cut -d "r" -f 2 | cut -d "s" -f 3 | cut -d "%" -f 1 `>>free.sh
+#剩余
+#echo='df -h | cut -d "t" -f 1 | cut -d "o" -f 2 | cut -d " " -f 29 | cut -d "r" -f 2 | cut -d "s" -f 3 ' >>free.sh
+#[apps@test5153 10-15]$ echo='df -h | cut -d "t" -f 1 | cut -d "o" -f 2 | cut -d " " -f 29 | cut -d "r" -f 2 | cut -d "s" -f 3 | cut -d "G" -f 1 ' >>free.sh
+
+
+#------------------------------------------------------
+
+
+

@@ -1,0 +1,6 @@
+#这是已有的定时任务，crontab -e 编辑  crontab -l 查看  crontab --help 帮助
+#分	时	日	月	星期	要执行的命令
+*/30	9-18	*	9,10,11	1-5	bash /usr/michael/learnlinux/crontab_git.sh
+
+*/1	0-23	1-31	9,10,11	*	bash /usr/michael/learnlinux/free.sh
+
