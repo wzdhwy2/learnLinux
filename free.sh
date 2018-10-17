@@ -1,7 +1,7 @@
 #/bin/bash/
 #基础监控脚本
 #source ~/.bash_profile————没起作用？环境问题初现！
-source /etc/profile
+#source /etc/profile
 
 #ipadd=` ifconfig eth0 | cut -d ":" -f 2 `————不能用 参数eth0？后验证可以用！
 ip=` ifconfig eth0 | cut -d ":" -f 2 `
