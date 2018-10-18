@@ -16,7 +16,7 @@ freeS=$[$total/1]
 # 总内存/1 是为了测试，/10是才是正常
 
 [ $free -le $freeS ] && echo " 服务器IP:" $ip " ，物理内存共：" $total " M ， 剩余" $free " M ，已不足10%！" |  mail -s  "$ip 服务器 [内
-存]预警"  wzdhwy2@163.com && date &>>/home/apps/free.log
+存]预警"  wzdhwy2@163.com && date &>>~/free.log
 #date &>>`pwd`'/'free.sh.log————不能用 pwd 吗？我觉得是要把路径赋给某个变量就能用了，但这里没必要
 #echo   "服务器IP："  $ip  "，物理内存共："     因为cut提取包含换行符的原因，为了邮件好看，脚本又好调试。不然直接一个“”引起来
 #echo   " 服务器IP："  $ip  " ，物理内存共："   而且必须空一格？？？不然调试脚本时中文又乱码。
@@ -34,6 +34,6 @@ useS=` echo $use | cut -d % -f 1 `
 #cut比grep更好提取某些值，但cut很依赖于分隔条件，更容易受不同服务器影响！
 
 [ 0 -le $useS ] && echo "服务器IP：$ip ，根磁盘共：$size ，已使用$used ， 剩余$avail ，使用率将超过$use! " |  mail -s  "$ip 服务器 [磁盘
-]预警"  wzdhwy2@163.com && date &>>/home/apps/df.log
+]预警"  wzdhwy2@163.com && date &>>/~df.log
 # 比0小 是为了测试，95才是正常
 
