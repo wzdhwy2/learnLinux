@@ -9,10 +9,8 @@ ip=` ifconfig eth0 | cut -d ":" -f 2 `
 ip=` echo $ip | cut -d " " -f 4 `
 
 
-#free=`free -m | cut -d " " -f 17`————某些服务器上cut参数有细微变化！grep+awk才是王道，一个筛选出符合条件的行，一个筛选出符合条件的某列
-#total=`free -m | cut -d " " -f 11`
-free=` free -m | awk '$1=="-/+"{print$4}' `
-total=` free -m | awk '$1=="Mem:"{print$2}' `
+free=`free -m | cut -d " " -f 17`
+total=`free -m | cut -d " " -f 11`
 freeS=$[$total/1]
 # 总内存/1 是为了测试，/10是才是正常
 
