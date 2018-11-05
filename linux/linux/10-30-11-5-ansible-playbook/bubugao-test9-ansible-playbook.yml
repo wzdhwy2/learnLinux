@@ -1,0 +1,1 @@
+     shell: chdir=/apps/svr/server/bubugao-base-service-XXXXXX/ ./update.sh bubugao-base-service-XXXXXX  V7.7.2

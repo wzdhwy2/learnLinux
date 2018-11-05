@@ -1,0 +1,15 @@
+##!/bin/bash/
+#使用说明：未注释的项目将被发布
+#测试传参
+echo bubugao-test1-ansible-playbook.yml
+echo bubugao-test2-ansible-playbook.yml
+echo bubugao-test3-ansible-playbook.yml
+#echo bubugao-test4-ansible-playbook.yml
+#echo bubugao-test5-ansible-playbook.yml
+#echo bubugao-test6-ansible-playbook.yml
+#echo bubugao-test7-ansible-playbook.yml
+echo bubugao-test8-ansible-playbook.yml
+echo bubugao-test9-ansible-playbook.yml
+#注意：新增项目名称需能被单个变量接收
+
+
