@@ -1,0 +1,18 @@
+app_cps_signal       0——0        0——49152		0	49152
+app_cps_signal       0——0        0——49152	_copy	0	16384
+app_idfa       0——0        0——32768		0	32768
+area       0——3291        0——475136		3291	475136
+area       0——3291        0——475136	_update	0	16384
+auth_token       0——27944        0——10600448		27944	10600448
+biz_area       0——45934        0——3686400	       0——3291        0——475136		45934	3686400
+common_param       0——6        0——16384		6	16384
+error_msg       0——2        0——16384		2	16384
+install_log       0——0        0——16384		0	16384
+manage_api_group       0——0        0——16384		0	16384
+member_center_dynamic_config       0——16        0——16384		16	16384
+member_signal_number       0——0        0——32768		0	32768
+red_packet       0——31920        0——7880704		31920	7880704
+screen_resolution       0——8        0——16384		8	16384
+update_android_version       0——0        0——32768		0	32768
+update_ios_version       0——0        0——163840		0	163840
+user_privilege       0——0        0——16384		0	16384

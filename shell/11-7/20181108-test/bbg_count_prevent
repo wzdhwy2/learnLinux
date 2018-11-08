@@ -1,0 +1,6 @@
+bbg_prevent_order_blacklist	0	81920
+bbg_prevent_order_checkrule	19	65536
+bbg_prevent_order_record	0	81920
+bbg_prevent_order_runconf	12	32768
+bbg_prevent_order_similarity	0	32768
+bbg_prevent_order_whitelist	0	32768

@@ -1,0 +1,8 @@
+sms_count       0——0        0——16384		0	16384
+sms_ex_result       0——0        0——16384		0	16384
+sms_manager       0——2        0——16384		2	16384
+sms_request_record       0——3101342        0——889683968		3101342	889683968
+sms_result       0——0        0——16384		0	16384
+sms_result       0——0        0——16384	_error	0	16384
+sms_soap_error       0——0        0——16384		0	16384
+sms_user_info       0——12        0——16384		12	16384

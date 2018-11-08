@@ -1,0 +1,16 @@
+account_flow       0——27        0——49152		27	49152
+apply_account       0——2        0——16384		2	16384
+apply_for_money       0——11        0——49152		11	49152
+apply_log       0——2        0——32768		2	32768
+order_amount       0——5        0——32768		5	32768
+order_detail       0——24        0——65536		24	65536
+order_log       0——43        0——16384		43	16384
+order_mq       0——15        0——114688		15	114688
+order_record       0——28        0——49152		28	49152
+pay_config_param       0——5        0——32768		5	32768
+pay_transfers_info       0——2        0——98304		2	98304
+wps_admin_permissions       0——17        0——32768		17	32768
+wps_admin_roles       0——0        0——32768		0	32768
+wps_commission_records       0——89        0——16384		89	16384
+wps_input_items       0——448        0——212992		448	212992
+wps_system       0——9        0——3893		9	3893

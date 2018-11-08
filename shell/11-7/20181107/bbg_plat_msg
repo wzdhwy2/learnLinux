@@ -1,0 +1,15 @@
+inbox_update_log	9952	1769472
+lhlh_order_info	0	16384
+lhlh_ticket_info	3000	147456
+lhlh_used_ticket	165	16384
+message_asyn_task_send	732985	720896000
+message_body	578048	135970816
+message_group	4	16384
+message_inbox	320319	58884096
+message_job	0	32768
+message_market_info	55	16384
+message_push_task	417329	47792128
+message_recipient	195805	34193408
+message_static	0	16384
+message_subscribe	1220	147456
+message_type	16	16384

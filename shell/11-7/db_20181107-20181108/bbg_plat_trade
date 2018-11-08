@@ -1,0 +1,44 @@
+bbg_b2c_area_order_self       0——0        0——49152		0	49152
+bbg_b2c_cart       0——0        0——32768		0	32768
+bbg_b2c_cart       0——0        0——32768	_item	19154	11239424
+bbg_b2c_config       0——148        0——16384		148	16384
+bbg_b2c_express_package       0——39256        0——21069824		39256	21069824
+bbg_b2c_express_package       0——39256        0——21069824	_items	67584	9469952
+bbg_b2c_goods_day_statistics       0——17023        0——4767744		17023	4767744
+bbg_b2c_jl_order_return       0——0        0——32768		0	32768
+bbg_b2c_jl_person       0——5957        0——557056		5957	557056
+bbg_b2c_jl_warehouse_area       0——0        0——65536		0	65536
+bbg_b2c_mq       0——2884224        0——2886729728		2884224	2886729728
+bbg_b2c_order_direct_buy       0——7027        0——1966080		7027	1966080
+bbg_b2c_order_extra       0——137255        0——23134208		137255	23134208
+bbg_b2c_order_items       0——92744        0——51576832		92744	51576832
+bbg_b2c_order_items       0——92744        0——51576832	_bulk	3796	2031616
+bbg_b2c_order_items       0——92744        0——51576832	_ext	71896	8929280
+bbg_b2c_order_log       0——937695        0——211779584		937695	211779584
+bbg_b2c_order_pmt       0——28311        0——5275648		28311	5275648
+bbg_b2c_order_share_pmt       0——109943        0——31047680		109943	31047680
+bbg_b2c_order_sync       0——1203020        0——323239936		1203020	323239936
+bbg_b2c_orders       0——46594        0——178765824		46594	178765824
+bbg_b2c_orders       0——46594        0——178765824	_pay	34	98304
+bbg_b2c_orders       0——46594        0——178765824	_presell	0	16384
+bbg_b2c_pay       0——330697        0——109330432		330697	109330432
+bbg_b2c_pay       0——330697        0——109330432	_20180706	210430	60981248
+bbg_b2c_pay       0——330697        0——109330432	_refund	659207	114409472
+bbg_b2c_refund       0——6501        0——4472832		6501	4472832
+bbg_b2c_refund       0——6501        0——4472832	_items	8866	4161536
+bbg_b2c_refund       0——6501        0——4472832	_log	21379	4751360
+bbg_b2c_refund       0——6501        0——4472832	_share_pmt	9813	2506752
+bbg_b2c_reverse_apply       0——6081        0——3932160		6081	3932160
+bbg_b2c_reverse_apply       0——6081        0——3932160	_items	10157	5144576
+bbg_b2c_reverse_apply       0——6081        0——3932160	_log	11187	3407872
+bbg_b2c_score       0——34028        0——6864896		34028	6864896
+bbg_b2c_score       0——34028        0——6864896	_sync	0	32768
+bbg_b2c_tax       0——64        0——32768		64	32768
+bbg_b2c_template       0——0        0——16384		0	16384
+bbg_b2c_virtual_orders       0——303715        0——175063040		303715	175063040
+bbg_dm_mapper       0——0        0——32768		0	32768
+bbg_dm_order_log       0——0        0——16384		0	16384
+bbg_newsell_order       0——258334        0——995606528		258334	995606528
+bbg_plat_order_msg       0——45971        0——548405248		45971	548405248
+cart_store_item_tmp       0——0        0——16384		0	16384
+v_member_pur       0——NULL        0——NULL		NULL	NULL

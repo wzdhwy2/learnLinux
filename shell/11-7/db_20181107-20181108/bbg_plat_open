@@ -1,0 +1,27 @@
+app_cps_signal       0——0        0——49152		0	49152
+app_cps_signal       0——0        0——49152	_copy	0	16384
+bbg_service_monitor       0——0        0——16384		0	16384
+dev_app       0——0        0——65536		0	65536
+dev_app       0——0        0——65536	_check	0	16384
+dev_secret_log       0——0        0——16384		0	16384
+dev_user       0——0        0——16384		0	16384
+doc_classify       0——0        0——16384		0	16384
+doc_content       0——0        0——16384		0	16384
+doc_model_field       0——0        0——49152		0	49152
+gateway_api       0——0        0——49152		0	49152
+gateway_api       0——0        0——49152	_group	0	32768
+gateway_app_api_role       0——0        0——65536		0	65536
+gateway_app_role       0——0        0——49152		0	49152
+gateway_authority       0——0        0——16384		0	16384
+gateway_authority       0——0        0——16384	_role	0	16384
+gateway_flow_control_count       0——0        0——16384		0	16384
+gateway_flow_control_count       0——0        0——16384	_log	0	16384
+gateway_flow_control_role       0——0        0——16384		0	16384
+manage_api_group       0——0        0——16384		0	16384
+member_signal_number       0——0        0——32768		0	32768
+oauth_access_token       0——0        0——16384		0	16384
+oauth_client_details       0——0        0——16384		0	16384
+oauth_client_token       0——0        0——16384		0	16384
+oauth_code       0——0        0——16384		0	16384
+oauth_refresh_token       0——0        0——16384		0	16384
+user_privilege       0——0        0——16384		0	16384

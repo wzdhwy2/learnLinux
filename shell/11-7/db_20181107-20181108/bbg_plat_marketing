@@ -1,0 +1,21 @@
+ump_act_red_package       0——2        0——98304		2	98304
+ump_act_red_package       0——2        0——98304	_gift	2	49152
+ump_activity_filters       0——31791        0——8454144		31791	8454144
+ump_activity_order_gift       0——0        0——65536		0	65536
+ump_activity_order_items       0——27077        0——11632640		27077	11632640
+ump_activity_sku_info       0——0        0——65536		0	65536
+ump_activity_sku_info       0——0        0——65536	_bak	0	16384
+ump_activity_time_interval       0——1688        0——180224		1688	180224
+ump_bank_pay_info       0——0        0——81920		0	81920
+ump_config       0——20        0——16384		20	16384
+ump_data_migration_log       0——0        0——49152		0	49152
+ump_fightgroups_count       0——0        0——16384		0	16384
+ump_fightgroups_info       0——0        0——114688		0	114688
+ump_fightgroups_member       0——0        0——131072		0	131072
+ump_groupbuy_member       0——61        0——32768		61	32768
+ump_marketing_activity       0——1590        0——6914048		1590	6914048
+ump_marketing_tool       0——15        0——32768		15	32768
+ump_order_info       0——11437585        0——5248122880		11437585	5248122880
+ump_payment_pmt       0——0        0——32768		0	32768
+ump_sync_info       0——0        0——16384		0	16384
+ump_tmp       0——0        0——32768		0	32768

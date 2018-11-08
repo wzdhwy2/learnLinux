@@ -1,0 +1,16 @@
+account_flow	27	49152
+apply_account	2	16384
+apply_for_money	11	49152
+apply_log	2	32768
+order_amount	5	32768
+order_detail	24	65536
+order_log	43	16384
+order_mq	15	114688
+order_record	28	49152
+pay_config_param	5	32768
+pay_transfers_info	2	98304
+wps_admin_permissions	17	32768
+wps_admin_roles	0	32768
+wps_commission_records	89	16384
+wps_input_items	448	212992
+wps_system	9	3893

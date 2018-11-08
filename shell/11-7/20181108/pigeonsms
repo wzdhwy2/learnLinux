@@ -1,0 +1,8 @@
+sms_count	0	16384
+sms_ex_result	0	16384
+sms_manager	2	16384
+sms_request_record	3101342	889683968
+sms_result	0	16384
+sms_result_error	0	16384
+sms_soap_error	0	16384
+sms_user_info	12	16384

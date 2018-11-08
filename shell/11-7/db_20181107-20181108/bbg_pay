@@ -1,0 +1,38 @@
+bbg_quartz_job_log       0——0        0——16384		0	16384
+biz_change_record       0——0        0——16384		0	16384
+currency_rate       0——0        0——16384		0	16384
+marketing_detail_info       0——0        0——16384		0	16384
+marketing_info       0——0        0——16384		0	16384
+message_record       0——0        0——16384		0	16384
+message_send_record       0——0        0——32768		0	32768
+order_payment_bocom       0——0        0——32768		0	32768
+order_payment_cmpay       0——0        0——32768		0	32768
+order_payment_info       0——0        0——81920	       0——0        0——65536		0	65536
+order_payment_prepaid_card       0——0        0——32768		0	32768
+order_payment_record       0——0        0——16384		0	16384
+order_refund_alipay       0——0        0——32768		0	32768
+order_refund_cmpay       0——0        0——32768		0	32768
+order_refund_prepaid_card       0——0        0——32768		0	32768
+order_refund_record       0——0        0——49152		0	49152
+out_payment_info       0——0        0——81920	       0——0        0——81920		0	81920
+pay_config_key       0——0        0——32768		0	32768
+pay_dict       0——0        0——16384		0	16384
+payment_acquire_customs       0——0        0——65536		0	65536
+payment_client       0——0        0——16384		0	16384
+payment_info       0——0        0——81920		0	81920
+payment_info       0——0        0——81920	_url	0	16384
+payment_marketing_history       0——0        0——49152		0	49152
+payment_marketing_info       0——0        0——49152	       0——0        0——16384		0	49152
+payment_method_info       0——0        0——16384		0	16384
+pgi_config_param       0——0        0——16384		0	16384
+pgi_config_param       0——0        0——16384	_20150507	0	16384
+pgi_config_param       0——0        0——16384	_copy	0	16384
+repeat_payment_info       0——0        0——49152	       0——0        0——81920		0	49152
+trade_combine       0——0        0——32768		0	32768
+trade_combine       0——0        0——32768	_relation	0	32768
+trade_discount       0——0        0——16384		0	16384
+trade_info       0——0        0——65536		0	65536
+trade_info       0——0        0——65536	_extra	0	32768
+trade_marketing_history       0——0        0——49152		0	49152
+trade_marketing_info       0——0        0——49152	       0——0        0——16384		0	49152
+trade_statistics       0——0        0——16384		0	16384

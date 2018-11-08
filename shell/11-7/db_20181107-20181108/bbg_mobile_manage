@@ -1,0 +1,213 @@
+account_statement       0——70963        0——15220736		70963	15220736
+activity_activity       0——3        0——16384		3	16384
+activity_store_manager       0——28        0——16384		28	16384
+advert_advert       0——635        0——196608		635	196608
+advert_advert       0——635        0——196608	message	2	16384
+advert_consumption       0——17369        0——3457024		17369	3457024
+advert_plate       0——107        0——147456		107	147456
+advert_zone       0——9        0——16384		9	16384
+app_account_message       0——5147593        0——1086078976		5147593	1086078976
+app_devicetoken       0——2158942        0——442859520		2158942	442859520
+app_integral_gaobi       0——259560        0——96157696		259560	96157696
+app_invitation_account       0——158003        0——37847040		158003	37847040
+app_invitation_account       0——158003        0——37847040	_2016	16617	1589248
+app_invitation_code       0——698166        0——120864768		698166	120864768
+app_invitation_code       0——698166        0——120864768	_2016	34962	10518528
+app_invitation_members       0——7784        0——1589248		7784	1589248
+app_invitation_scan       0——8468        0——3178496		8468	3178496
+app_member_addr       0——34169        0——7880704		34169	7880704
+app_members       0——5264700        0——1316175872		5264700	1316175872
+app_members       0——5264700        0——1316175872	_20150731	605650	106119168
+app_members       0——5264700        0——1316175872	_20180724	15292	1589248
+app_members       0——5264700        0——1316175872	_channel	4433096	644202496
+app_members       0——5264700        0——1316175872	_copy	2640230	637747200
+app_message       0——0        0——16384		0	16384
+app_message       0——0        0——16384	_record	3563	1589248
+app_navigation_column       0——28        0——16384		28	16384
+app_open_security       0——8        0——16384		8	16384
+app_order       0——43999        0——4734976		43999	4734976
+app_order       0——43999        0——4734976	_his	34587	1589248
+app_order       0——43999        0——4734976	_serial	19	16384
+app_pay_pass       0——228190        0——20463616		228190	20463616
+app_pay_record       0——1627869        0——396787712		1627869	396787712
+app_pos_secret       0——401        0——65536		401	65536
+app_share_message       0——7        0——16384		7	16384
+app_share_msg_cate       0——8        0——16384		8	16384
+app_sms       0——1693148        0——565346304		1693148	565346304
+app_switch       0——0        0——16384		0	16384
+app_token       0——5574472        0——2514911232		5574472	2514911232
+app_weixin_members       0——724535        0——198344704		724535	198344704
+app_yili_members       0——28380        0——2637824		28380	2637824
+app_yili_members       0——28380        0——2637824	_question_recorders	1540	1589248
+area       0——3310        0——458752		3310	458752
+area       0——3310        0——458752	_area       0——3310        0——458752		5640	1802240
+area       0——3310        0——458752	_test	0	32768
+assistance_assistance       0——0        0——16384		0	16384
+assistance_join       0——0        0——49152		0	49152
+assistance_school       0——0        0——16384		0	16384
+basic_config       0——22        0——16384		22	16384
+basic_image       0——14        0——16384		14	16384
+biz_area       0——44656        0——3686400	       0——3310        0——458752		44656	3686400
+card_style       0——3        0——16384		3	16384
+cdkey       0——10325        0——3686400		10325	3686400
+cdkey       0——10325        0——3686400	_partner	0	16384
+cdkey       0——10325        0——3686400	_prefix	52	16384
+cdkey       0——10325        0——3686400	_resource	0	16384
+choice_column       0——2        0——16384		2	16384
+choice_column       0——2        0——16384	_product	17	16384
+choice_indexcolumn       0——13        0——16384		13	16384
+choice_storecolumn       0——17        0——16384		17	16384
+choice_storecolumn       0——17        0——16384	_ref	62	16384
+choice_storecolumn       0——17        0——16384	_ref_property	3	16384
+choice_subcolumn       0——40        0——16384		40	16384
+commodity_commodity       0——399        0——1589248		399	1589248
+commodity_inventory       0——1550        0——376832		1550	376832
+commodity_order       0——310        0——180224		310	180224
+commodity_order       0——310        0——180224	_died	1211	442368
+commodity_order       0——310        0——180224	_goods	311	65536
+commodity_order       0——310        0——180224	_goods_died	1211	180224
+commodity_order       0——310        0——180224	_receiver	379	65536
+commodity_order       0——310        0——180224	_refund	110	32768
+concertticket_grant       0——14803        0——2637824		14803	2637824
+concertticket_input       0——0        0——32768		0	32768
+concertticket_input       0——0        0——32768	_audit	88	16384
+concertticket_pull_area       0——0        0——16384	       0——3310        0——458752		0	16384
+concertticket_pull_config       0——0        0——16384		0	16384
+concertticket_pull_info       0——0        0——49152		0	49152
+concertticket_pull_order       0——2        0——32768		2	32768
+concertticket_pull_share       0——0        0——32768		0	32768
+coupon_order       0——1611        0——311296		1611	311296
+coupon_order       0——1611        0——311296	_accountcoupon	124	49152
+coupon_order       0——1611        0——311296	_cancel	0	16384
+coupons_package       0——0        0——16384		0	16384
+coupons_package       0——0        0——16384	_map	0	16384
+couponsmanage_accountcoupon       0——4588187        0——1005289472		4588187	1005289472
+couponsmanage_audit       0——10430        0——1589248		10430	1589248
+couponsmanage_coupons       0——1788        0——1589248		1788	1589248
+couponsmanage_coupons       0——1788        0——1589248	ref	65707	7880704
+etc_auto_pass_record       0——1283658        0——170622976		1283658	170622976
+etc_car       0——112772        0——28459008		112772	28459008
+etc_car       0——112772        0——28459008	_pos_coupon	4887	393216
+etc_order       0——14774        0——3686400		14774	3686400
+etc_order       0——14774        0——3686400	_pos	7	16384
+etc_park       0——0        0——16384		0	16384
+etc_park       0——0        0——16384	_order	887810	446283776
+etc_park       0——0        0——16384	_position	0	16384
+etc_park       0——0        0——16384	_position_account	0	16384
+etc_park       0——0        0——16384	_position_manager	0	16384
+etc_park       0——0        0——16384	_sweep_number	0	16384
+etc_pos       0——637652        0——73023488		637652	73023488
+etc_pos       0——637652        0——73023488	_coupon	28754	6324224
+etc_pos       0——637652        0——73023488	_coupon_order       0——1611        0——311296		16100	1589248
+etc_pos       0——637652        0——73023488	_rule	10	16384
+etc_pos       0——637652        0——73023488	_rule_item	3	16384
+etc_pos       0——637652        0——73023488	_sys	0	16384
+etc_rule       0——0        0——32768		0	32768
+etc_ticket_detail       0——6933        0——1949696		6933	1949696
+film_audit       0——162        0——49152		162	49152
+film_category       0——15        0——16384		15	16384
+film_film       0——37        0——98304		37	98304
+film_storeref       0——439        0——49152		439	49152
+function_node       0——3        0——16384		3	16384
+games_menuitem       0——5        0——16384		5	16384
+gaobi_recharge       0——200758        0——19447808		200758	19447808
+gaobihouse_order       0——0        0——16384		0	16384
+gift_category       0——4        0——16384		4	16384
+gift_gift       0——2148        0——2637824		2148	2637824
+gift_inventory       0——22019        0——8454144		22019	8454144
+gift_trade       0——0        0——16384		0	16384
+goods_category       0——13        0——16384		13	16384
+hotspot_activity       0——61        0——196608		61	196608
+hotspot_audit       0——221        0——65536		221	65536
+hotspot_storesref       0——2902        0——442368		2902	442368
+idea_idea       0——0        0——16384		0	16384
+information_pushinformation       0——0        0——16384		0	16384
+integral_order       0——3120271        0——386875392		3120271	386875392
+integral_store       0——2        0——32768		2	32768
+integral_store       0——2        0——32768	_order	3	16384
+integral_user_recharge_order       0——10        0——49152		10	49152
+licenses_content       0——6        0——114688		6	114688
+livepay_order       0——0        0——16384		0	16384
+livepay_proxycompany       0——0        0——16384		0	16384
+livepay_rechargeprice       0——0        0——16384		0	16384
+lottery_activity       0——9        0——16384		9	16384
+lottery_activity       0——9        0——16384	_audit	409	81920
+lottery_activity       0——9        0——16384	_goods	89	65536
+lottery_activity       0——9        0——16384	_stores	5	32768
+lottery_config       0——0        0——16384		0	16384
+lottery_ecommerce_orderinfo       0——391515        0——55197696		391515	55197696
+lottery_goods       0——144        0——49152		144	49152
+lottery_goods       0——144        0——49152	_city_ref	525	65536
+lottery_goods       0——144        0——49152	_coupons_ref	114	16384
+lottery_goods       0——144        0——49152	_ticket_ref	0	16384
+lottery_info       0——993531        0——482492416		993531	482492416
+lottery_manual_goods       0——0        0——16384		0	16384
+lottery_manual_info       0——0        0——16384		0	16384
+lottery_order       0——905487        0——241221632		905487	241221632
+lottery_order       0——905487        0——241221632	_20150728	5016119	1260797952
+lottery_shop_orderinfo       0——120841        0——9977856		120841	9977856
+lottery_shop_ticketinfo       0——427920        0——116195328		427920	116195328
+lottery_wechat_info_ref       0——1615        0——196608		1615	196608
+lottery_wechat_order       0——10744        0——3768320		10744	3768320
+member_column       0——7        0——16384		7	16384
+member_goods       0——55        0——49152		55	49152
+member_goods       0——55        0——49152	ref	851	114688
+member_seller       0——0        0——16384		0	16384
+memberappeal_paypasswd       0——7965        0——3686400		7965	3686400
+memberappeal_paypasswd       0——7965        0——3686400	_audit	8161	1589248
+memberappeal_phone       0——2400        0——1589248		2400	1589248
+memberappeal_phone       0——2400        0——1589248	_audit	2454	294912
+messagemanager_message_entry       0——4        0——16384		4	16384
+messagemanager_personal_msg       0——0        0——32768		0	32768
+messagemanager_personal_msg       0——0        0——32768	_2015-831	0	16384
+op_token       0——0        0——16384		0	16384
+ordermng_cancel       0——0        0——16384		0	16384
+ordermng_log       0——212752        0——29425664		212752	29425664
+ordermng_order       0——185760        0——102449152		185760	102449152
+page_advertisement_page       0——6        0——16384		6	16384
+party_category       0——7        0——16384		7	16384
+party_config       0——0        0——16384		0	16384
+party_order_proposer       0——5392        0——1589248		5392	1589248
+party_orders       0——4384        0——2048000		4384	2048000
+party_package       0——297        0——327680		297	327680
+party_package       0——297        0——327680	audit	854	131072
+party_partydates       0——33440        0——5275648		33440	5275648
+payment_method       0——2        0——16384		2	16384
+platform_indexcagegory       0——10        0——16384		10	16384
+product_order       0——24377        0——4734976		24377	4734976
+push_message       0——0        0——16384		0	16384
+recode_mobile       0——299        0——16384		299	16384
+reconciliation_standingaudit       0——32        0——16384		32	16384
+reconciliation_standingbook       0——820        0——212992		820	212992
+register_send_coupon_record       0——341175        0——34144256		341175	34144256
+security_module       0——567        0——114688		567	114688
+security_organization       0——4        0——32768		4	32768
+security_role       0——44        0——16384		44	16384
+security_role       0——44        0——16384	_permission	2201	294912
+security_user       0——4279        0——1802240		4279	1802240
+security_user       0——4279        0——1802240	_merchant	4164	294912
+security_user       0——4279        0——1802240	_role	5599	737280
+security_user       0——4279        0——1802240	_stores	3716	262144
+seller_category       0——12        0——16384		12	16384
+seller_manager       0——0        0——16384		0	16384
+seller_merchant       0——1372        0——1589248		1372	1589248
+seller_stores       0——3250        0——2899968		3250	2899968
+siebel_sync       0——7572934        0——1384120320		7572934	1384120320
+siebel_voucher_push       0——0        0——16384		0	16384
+startimage_startimage       0——0        0——32768		0	32768
+sync_member_failed_log       0——1629971        0——239894528		1629971	239894528
+sync_pos       0——951131        0——112885760		951131	112885760
+temp_account_member       0——111325        0——5783552		111325	5783552
+third_integral_order       0——0        0——16384	       0——3120271        0——386875392		0	16384
+third_login_record       0——477        0——81920		477	81920
+thridkeys_thrid_keys_cate       0——0        0——16384		0	16384
+thridkeys_thridkeys       0——36481        0——7880704		36481	7880704
+thridkeys_thridkeys       0——36481        0——7880704	cate	10	16384
+unicom_order       0——1109        0——229376		1109	229376
+unionpay_bin       0——3557        0——294912		3557	294912
+unionpay_member       0——5161        0——2195456		5161	2195456
+unionpay_order       0——50        0——16384		50	16384
+voucher_exchange_record       0——150440        0——18366464		150440	18366464
+wechat_pay_order       0——1595        0——1589248		1595	1589248
+wechat_refund_order       0——3        0——16384		3	16384
+weixin_jsapi_sdk       0——0        0——16384		0	16384

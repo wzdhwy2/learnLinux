@@ -1,0 +1,21 @@
+account       0——45        0——16384		45	16384
+account       0——45        0——16384	_data	0	16384
+account       0——45        0——16384	_file	0	16384
+account       0——45        0——16384	_role       0——17        0——16384	_r	89	16384
+biz_fee_audit_log       0——111        0——16384		111	16384
+comment_batch       0——0        0——16384		0	16384
+comment_data       0——0        0——16384		0	16384
+electric_employees_info       0——0        0——32768		0	32768
+finder_info       0——0        0——16384		0	16384
+global_comment_data       0——0        0——16384	       0——0        0——16384		0	16384
+open_close_setting       0——0        0——16384		0	16384
+order_tag       0——0        0——16384		0	16384
+partners_import_product       0——0        0——16384		0	16384
+partners_operation_log       0——0        0——16384		0	16384
+permission       0——543        0——229376		543	229376
+photo_album       0——0        0——16384		0	16384
+photo_album       0——0        0——16384	_item	0	32768
+question_info       0——0        0——16384		0	16384
+role       0——17        0——16384		17	16384
+role       0——17        0——16384	_permission       0——543        0——229376	_r	1692	98304
+user_op_log       0——3617        0——6832128		3617	6832128

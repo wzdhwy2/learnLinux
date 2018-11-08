@@ -1,0 +1,15 @@
+bbg_lottery_activity       0——126        0——98304		126	98304
+bbg_lottery_activity       0——126        0——98304	_zone	65	32768
+bbg_lottery_config       0——0        0——16384		0	16384
+bbg_lottery_count       0——852        0——245760		852	245760
+bbg_lottery_flow       0——1539923        0——509689856		1539923	509689856
+bbg_lottery_history       0——686        0——7929856		686	7929856
+bbg_lottery_member_order       0——47752        0——11091968		47752	11091968
+bbg_lottery_order_use       0——2798        0——737280		2798	737280
+bbg_lottery_prize       0——481        0——114688		481	114688
+bbg_lottery_prize       0——481        0——114688	_zone	93	32768
+bbg_lottery_prompt       0——324        0——81920		324	81920
+bbg_lottery_record       0——1547800        0——455000064		1547800	455000064
+bbg_lottery_rule       0——534        0——81920		534	81920
+t1       0——200        0——16384		200	16384
+yzj       0——18715        0——1589248		18715	1589248

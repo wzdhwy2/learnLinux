@@ -1,0 +1,28 @@
+columns_priv       0——0        0——4096		0	4096
+db       0——116        0——64352		116	64352
+event       0——2        0——5452		2	5452
+func       0——0        0——1024		0	1024
+general_log       0——2        0——0		2	0
+help_category       0——40        0——4192		40	4192
+help_keyword       0——608        0——141280		608	141280
+help_relation       0——1215        0——33463		1215	33463
+help_topic       0——583        0——588216		583	588216
+innodb       0——116        0——64352	_index_stats	9533	2293760
+innodb       0——116        0——64352	_table_stats	1077	196608
+ndb       0——116        0——64352	_binlog_index	0	1024
+plugin       0——0        0——1024		0	1024
+proc       0——23        0——114560		23	114560
+proc       0——23        0——114560	s_priv	0	4096
+proxies_priv       0——2        0——6506		2	6506
+servers       0——0        0——1024		0	1024
+slave_master_info       0——0        0——16384		0	16384
+slave_relay_log_info       0——1        0——16384		1	16384
+slave_worker_info       0——10        0——16384		10	16384
+slow_log       0——2        0——0		2	0
+tables_priv       0——1        0——9043		1	9043
+time_zone       0——0        0——1024		0	1024
+time_zone       0——0        0——1024	_leap_second	0	1024
+time_zone       0——0        0——1024	_name	0	1024
+time_zone       0——0        0——1024	_transition	0	1024
+time_zone       0——0        0——1024	_transition_type	0	1024
+user       0——89        0——15692		89	15692

@@ -1,0 +1,15 @@
+inbox_update_log       0——9952        0——1769472		9952	1769472
+lhlh_order_info       0——0        0——16384		0	16384
+lhlh_ticket_info       0——3000        0——147456		3000	147456
+lhlh_used_ticket       0——165        0——16384		165	16384
+message_asyn_task_send       0——732985        0——720896000		732985	720896000
+message_body       0——578048        0——135970816		578048	135970816
+message_group       0——4        0——16384		4	16384
+message_inbox       0——320319        0——58884096		320319	58884096
+message_job       0——0        0——32768		0	32768
+message_market_info       0——55        0——16384		55	16384
+message_push_task       0——417329        0——47792128		417329	47792128
+message_recipient       0——195805        0——34193408		195805	34193408
+message_static       0——0        0——16384		0	16384
+message_subscribe       0——1220        0——147456		1220	147456
+message_type       0——16        0——16384		16	16384

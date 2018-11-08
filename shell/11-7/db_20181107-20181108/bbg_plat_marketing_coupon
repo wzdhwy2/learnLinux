@@ -1,0 +1,20 @@
+incre_table       0——50        0——16384		50	16384
+ump_coupon       0——1044561        0——653656064		1044561	653656064
+ump_coupon       0——1044561        0——653656064	_external	332220	194772992
+ump_coupon       0——1044561        0——653656064	_fail	0	16384
+ump_coupon       0——1044561        0——653656064	_issue	39	32768
+ump_coupon       0——1044561        0——653656064	_issue_interval	41	65536
+ump_coupon       0——1044561        0——653656064	_issue_log	727	180224
+ump_coupon       0——1044561        0——653656064	_issue_manual	514	98304
+ump_coupon       0——1044561        0——653656064	_issue_rule	45	65536
+ump_coupon       0——1044561        0——653656064	_issue_rule_item	48	114688
+ump_coupon       0——1044561        0——653656064	_issue_times	22	32768
+ump_coupon       0——1044561        0——653656064	_rule	546	163840
+ump_coupon       0——1044561        0——653656064	_rule_2080427	138	81920
+ump_coupon       0——1044561        0——653656064	_rule_item	496	1605632
+ump_coupon       0——1044561        0——653656064	_scheme	581	262144
+ump_coupon       0——1044561        0——653656064	_seq	0	16384
+ump_coupon       0——1044561        0——653656064	_status_log	0	16384
+ump_coupon       0——1044561        0——653656064	_use	127458	40992768
+ump_test       0——0        0——16384		0	16384
+v_ump_coupon       0——1044561        0——653656064	_rule_item	NULL	NULL

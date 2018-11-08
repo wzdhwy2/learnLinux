@@ -1,0 +1,12 @@
+ac_wordstore       0——12931        0——2064384		12931	2064384
+sc_autocomplete       0——31141        0——4194304		31141	4194304
+sc_back_catid_map       0——2001        0——294912		2001	294912
+sc_backcate_data       0——455        0——98304		455	98304
+sc_cate_weight       0——87        0——16384		87	16384
+sc_goodscore       0——0        0——16384		0	16384
+sc_hot_keywords       0——83        0——32768		83	32768
+sc_product_order       0——1        0——32768		1	32768
+sc_related       0——508        0——114688		508	114688
+sc_synonym       0——16        0——16384		16	16384
+sc_update_log       0——0        0——16384		0	16384
+sc_wordstore       0——30883        0——4227072		30883	4227072

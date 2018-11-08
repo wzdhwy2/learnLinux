@@ -1,0 +1,26 @@
+2018/11/07 14:05:33 [notice] 21035#0: signal process started
+2018/11/07 14:05:35 [notice] 21047#0: signal process started
+2018/11/07 14:10:39 [notice] 21248#0: signal process started
+2018/11/07 14:45:10 [error] 21249#0: *68 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /favicon.ico HTTP/1.1", host: "10.200.51.53", referrer: "http://10.200.51.53/"
+2018/11/07 14:45:16 [error] 21249#0: *69 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.200.51.53:801", referrer: "http://10.200.51.53:801/"
+2018/11/07 15:01:24 [emerg] 22644#0: unknown directive "erver" in /usr/michael/learnlinux/nginx/nginx/conf/nginx.conf:74
+2018/11/07 15:01:50 [emerg] 22665#0: unknown directive "srver" in /usr/michael/learnlinux/nginx/nginx/conf/nginx.conf:74
+2018/11/07 15:02:05 [emerg] 22691#0: unexpected end of file, expecting "}" in /usr/michael/learnlinux/nginx/nginx/conf/nginx.conf:202
+2018/11/07 15:03:09 [notice] 22744#0: signal process started
+2018/11/07 15:12:06 [error] 22745#0: *72 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy2.com", referrer: "http://wzdhwy2.com/"
+2018/11/07 15:12:23 [error] 22745#0: *73 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy3.com", referrer: "http://wzdhwy3.com/"
+2018/11/07 15:12:52 [error] 22745#0: *74 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy4.com", referrer: "http://wzdhwy4.com/"
+2018/11/07 15:13:29 [error] 22745#0: *75 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.200.51.53:802", referrer: "http://10.200.51.53:802/"
+2018/11/07 15:13:33 [error] 22745#0: *76 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.200.51.53:803", referrer: "http://10.200.51.53:803/"
+2018/11/07 15:17:39 [notice] 23192#0: signal process started
+2018/11/07 15:27:24 [notice] 23410#0: signal process started
+2018/11/07 15:28:30 [error] 23411#0: *82 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy1.com", referrer: "http://wzdhwy1.com/"
+2018/11/07 15:29:29 [error] 23411#0: *83 open() "/usr/michael/learnlinux/nginx/nginx/html/X59.html" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /X59.html HTTP/1.1", host: "10.200.51.53"
+2018/11/07 15:29:34 [error] 23411#0: *83 open() "/usr/michael/learnlinux/nginx/nginx/html/X50.html" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /X50.html HTTP/1.1", host: "10.200.51.53"
+2018/11/07 15:29:39 [error] 23411#0: *83 open() "/usr/michael/learnlinux/nginx/nginx/html/x50.html" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /x50.html HTTP/1.1", host: "10.200.51.53"
+2018/11/07 15:30:16 [error] 23411#0: *84 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.cn, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy.cn", referrer: "http://wzdhwy.cn/"
+2018/11/07 15:30:48 [error] 23411#0: *85 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.org, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy.org", referrer: "http://wzdhwy.org/"
+2018/11/07 15:30:57 [error] 23411#0: *86 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.jp, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy.jp", referrer: "http://wzdhwy.jp/"
+2018/11/07 15:31:14 [notice] 23508#0: signal process started
+2018/11/07 15:32:14 [error] 23509#0: *88 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy1.jp", referrer: "http://wzdhwy1.jp/"
+2018/11/07 15:32:23 [error] 23509#0: *89 open() "/usr/michael/learnlinux/nginx/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.12.24.155, server: wzdhwy.com, request: "GET /favicon.ico HTTP/1.1", host: "wzdhwy2.jp", referrer: "http://wzdhwy2.jp/"
