@@ -1,13 +1,18 @@
 #!/bin/bash
 #
 
-DBname="` cat DBname.txt `"
+source /etc/profile
+
+DBname="` cat ~/mysql_sh/DBname.txt `"
 logdate="` date +%Y%m%d `"
 
 logdateS=` date -d "1 days ago" +%Y%m%d `
 #旧文件夹的带S
+
 db_log="db_$logdateS-$logdate"
-mkdir $db_log
+mkdir ~/mysql_sh/$db_log || rm -r ~/mysql_sh/$db_log
+mkdir ~/mysql_sh/$db_log
+#保证对比文件（db_xxxx）的纯洁性
 
 
 for DBnameS in $DBname
@@ -15,7 +20,7 @@ do
 
 	#tbnameS=` awk '{print$1}' ./$logdateS/$DBnameS `
 	#只以新表名为准！必须要以一项表名才能做对比，不能一次性对比所有表
-        tbname=` awk '{print$1}' ./$logdate/$DBnameS `
+        tbname=` awk '{print$1}' ~/mysql_sh/$logdate/$DBnameS `
 	#tbname_nr=` awk '{print$1,$2,$3}' ./$logdate/$DBnameS ` 
 	#没有意义，库情况文件已经包含了要的内容
 	
@@ -30,18 +35,18 @@ do
 	
 		#dq_tbnameS="` grep $tbnameS `"
 		#没有必要单独过滤当前的行（表情况），sed自带过滤匹配功能，匹配当前for到的表名的项，就输出$2
-                tbroS=` awk ' $1=="'$tbnameS'"  {print$2} ' ./$logdateS/$DBnameS `
-                tbro=` awk ' $1=="'$tbnameS'"  {print$2} ' ./$logdate/$DBnameS `
+                tbroS=` awk ' $1=="'$tbnameS'"  {print$2} ' ~/mysql_sh/$logdateS/$DBnameS `
+                tbro=` awk ' $1=="'$tbnameS'"  {print$2} ' ~/mysql_sh/$logdate/$DBnameS `
                 #awk ' 模式  {动作} '  ：awk模式中，用单引号时模式中的变量被屏蔽的情况，首次攻克花了1个小时以上，别人只花了10分钟。
 		#你发现了什么？有效快速解决问题——事后发现有一些什么样的规律吗？事前的进度为什么推的这么慢？
 		#你有什么做的比编上个程序做的好的地方？做的不足的地方？
 		db_tbro=$[tbro-tbroS]
-                tbsizeS=` awk ' $1=="'$tbnameS'"  {print$3} ' ./$logdateS/$DBnameS `
-                tbsize=` awk ' $1=="'$tbnameS'"  {print$3} ' ./$logdate/$DBnameS `
+                tbsizeS=` awk ' $1=="'$tbnameS'"  {print$3} ' ~/mysql_sh/$logdateS/$DBnameS `
+                tbsize=` awk ' $1=="'$tbnameS'"  {print$3} ' ~/mysql_sh/$logdate/$DBnameS `
                 db_tbsize=$[tbsize-tbsizeS]
                 #sed -i ' s/'$tbnameS'/'$tbnameS'       '$db_tbro'——'$tbro'        '$db_tbsize'——'$tbsize'	/g' ./$db_log/$DBnameS
-		touch ./$db_log/$DBnameS
-		echo "表名：$tbnameS			|   行数： 现有 $tbro   原有 $tbroS   增长 $db_tbro   |   大小(K)： 现有 $tbsize   原有 $tbsizeS   增长 $db_tbsize	">>./$db_log/$DBnameS
+		touch ~/mysql_sh/$db_log/$DBnameS
+		echo "表名：$tbnameS			|   行数： 现有 $tbro   原有 $tbroS   增长 $db_tbro   |   大小(K)： 现有 $tbsize   原有 $tbsizeS   增长 $db_tbsize	">>~/mysql_sh/$db_log/$DBnameS
 		
         done
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#取到MySQL服务器上所有库的库名，输出到本机此~/mysql_sh目录下
+#取到MySQL服务器上所有库的库名，输出到本机此~/mysql_sh/目录下
 
 DBname="DBname.txt"
 mkdir ~/mysql_sh
