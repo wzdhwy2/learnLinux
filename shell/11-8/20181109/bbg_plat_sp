@@ -1,0 +1,17 @@
+sp_dtf_msg_log	0	16384
+sp_store_config	2	16384
+sp_store_frontend_change_info	308	81920
+sp_store_frontend_details	142	32768
+sp_store_frontend_items	2505	409600
+sp_store_frontend_items_category	228	65536
+sp_store_frontend_op	2290	311296
+sp_store_frontend_op_items	326554	50462720
+sp_store_frontend_replenishment_items	2315	507904
+sp_store_md_details	0	16384
+sp_store_md_loc_addr	82	32768
+sp_store_md_loc_area	18	32768
+sp_store_o2o_details	3673	704512
+sp_store_op_log	109838	14172160
+sp_store_order_op	291	32768
+sp_sync_policy	0	16384
+sp_warehouse	389	81920

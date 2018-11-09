@@ -1,0 +1,12 @@
+bbg_b2c_counter	0	32768
+bbg_b2c_mq	0	16384
+bbg_b2c_order_items	0	114688
+bbg_b2c_order_log	0	49152
+bbg_b2c_order_pmt	0	32768
+bbg_b2c_order_share_pmt	0	81920
+bbg_b2c_orders	0	229376
+bbg_b2c_seckill	0	32768
+bbg_b2c_seckill_copy	0	32768
+bbg_b2c_seckill_counter	0	32768
+bbg_b2c_seckill_order	0	32768
+bbg_b2c_seckill_pre_orderids	0	32768

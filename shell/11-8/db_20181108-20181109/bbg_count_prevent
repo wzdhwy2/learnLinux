@@ -1,0 +1,6 @@
+表名：bbg_prevent_order_blacklist			|   行数： 现有 0   原有 0   增长 0   |   大小(K)： 现有 81920   原有 81920   增长 0	
+表名：bbg_prevent_order_checkrule			|   行数： 现有 19   原有 19   增长 0   |   大小(K)： 现有 65536   原有 65536   增长 0	
+表名：bbg_prevent_order_record			|   行数： 现有 0   原有 0   增长 0   |   大小(K)： 现有 81920   原有 81920   增长 0	
+表名：bbg_prevent_order_runconf			|   行数： 现有 12   原有 12   增长 0   |   大小(K)： 现有 32768   原有 32768   增长 0	
+表名：bbg_prevent_order_similarity			|   行数： 现有 0   原有 0   增长 0   |   大小(K)： 现有 32768   原有 32768   增长 0	
+表名：bbg_prevent_order_whitelist			|   行数： 现有 0   原有 0   增长 0   |   大小(K)： 现有 32768   原有 32768   增长 0	
