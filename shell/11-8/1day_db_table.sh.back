@@ -36,8 +36,8 @@ do
 		#你发现了什么？有效快速解决问题——事后发现有一些什么样的规律吗？事前的进度为什么推的这么慢？
 		#你有什么做的比编上个程序做的好的地方？做的不足的地方？
 		db_tbro=$[tbro-tbroS]
-                tbsizeS=` awk ' $1=='$tbnameS'  {print$3} ' ./$logdateS/$DBnameS `
-                tbsize=` awk ' $1=='$tbnameS'  {print$3} ' ./$logdate/$DBnameS `
+                tbsizeS=` awk ' $1=="'$tbnameS'"  {print$3} ' ./$logdateS/$DBnameS `
+                tbsize=` awk ' $1=="'$tbnameS'"  {print$3} ' ./$logdate/$DBnameS `
                 db_tbsize=$[tbsize-tbsizeS]
                 sed -i ' s/'$tbnameS'/'$tbnameS'       '$db_tbro'——'$tbro'        '$db_tbsize'——'$tbsize'	/g' ./$db_log/$DBnameS
 		
