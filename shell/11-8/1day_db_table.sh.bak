@@ -30,14 +30,14 @@ do
 	
 		#dq_tbnameS="` grep $tbnameS `"
 		#没有必要单独过滤当前的行（表情况），sed自带过滤匹配功能，匹配当前for到的表名的项，就输出$2
-                tbroS=` awk ' $1=="'$tbnameS'"  {print$2} ' ./$logdateS/$DBnameS `
-                tbro=` awk ' $1=="'$tbnameS'"  {print$2} ' ./$logdate/$DBnameS `
+                tbroS=` grep -w "$tbnameS" ./$logdateS/$DBnameS | awk '{print$2}' `
+                tbro=` grep -w "$tbnameS" ./$logdate/$DBnameS | awk '{print$2}' `
                 #awk ' 模式  {动作} '  ：awk模式中，用单引号时模式中的变量被屏蔽的情况，首次攻克花了1个小时以上，别人只花了10分钟。
 		#你发现了什么？有效快速解决问题——事后发现有一些什么样的规律吗？事前的进度为什么推的这么慢？
 		#你有什么做的比编上个程序做的好的地方？做的不足的地方？
 		db_tbro=$[tbro-tbroS]
-                tbsizeS=` awk ' $1=="'$tbnameS'"  {print$3} ' ./$logdateS/$DBnameS `
-                tbsize=` awk ' $1=="'$tbnameS'"  {print$3} ' ./$logdate/$DBnameS `
+                tbsizeS=` grep -w "$tbnameS" ./$logdateS/$DBnameS | awk '{print$3}' `
+                tbsize=` grep -w "$tbnameS" ./$logdate/$DBnameS | awk '{print$3}' `
                 db_tbsize=$[tbsize-tbsizeS]
                 sed -i ' s/'$tbnameS'/'$tbnameS'       '$db_tbro'——'$tbro'        '$db_tbsize'——'$tbsize'	/g' ./$db_log/$DBnameS
 		
