@@ -11,7 +11,7 @@ show databases ;
 exit
 " >~/mysql_sh/$DBname
 
-sed -i '1d' $DBname
+sed -i '1d' ~/mysql_sh/$DBname && jg=1:OK || jg=1:NO
 #sed -i 参数才会对文件起作用，删掉库名存放列表里说明性的第一行
 
 #取到MySQL服务器上所有库的库名列表，输出到本机此~/mysql_sh/目录下文件里
@@ -20,7 +20,10 @@ sed -i '1d' $DBname
 
 DBname="` cat ~/mysql_sh/DBname.txt `"
 logdate="` date +%Y%m%d `"
+mkdir ~/mysql_sh/$logdate || rm -r ~/mysql_sh/$logdate
 mkdir ~/mysql_sh/$logdate
+#保证文件（$logdate）的新鲜，可靠
+#没有必要，反正是覆盖，又不是追加。
 
 for DBnameS in $DBname
 do
@@ -31,7 +34,7 @@ FROM information_schema.TABLES
 WHERE TABLE_SCHEMA='$DBnameS' ;
 exit
 " >~/mysql_sh/$logdate/$DBnameS
-sed -i '1d' ~/mysql_sh/$logdate/$DBnameS
+sed -i '1d' ~/mysql_sh/$logdate/$DBnameS  &&  jg_s=2:OK || jg_s=2:NO
 #删掉这个库里所有表的情况存放列表里说明性的第一行
 
 done
@@ -40,4 +43,6 @@ done
 #———————————————————————第二步———————————————————————————
 
 
+echo "	$jg | $js_s	" >~/mysql_sh/"$logdate .jg"
+#使用定时任务时的简单日志
 
