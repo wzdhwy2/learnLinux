@@ -11,7 +11,7 @@ do
 	read -p "	清选择天数(1/10/30/0(自定义)：" date
 	if [ $date = 0 ]
 	then
-		read -p "	请输入天数(1=<)：" my_db_date
+		read -p "	请输入天数(建议为1-365)：" my_db_date
 		echo	"	现在对比天数为：$my_db_date 天前的表情况"
 		break
 	elif [ $date = 1 ]
@@ -49,7 +49,7 @@ db_log="db_$logdateS-$logdate"
 mkdir ~/mysql_sh/$db_log || rm -r ~/mysql_sh/$db_log
 mkdir ~/mysql_sh/$db_log
 #保证对比文件（db_xxxx）的新鲜，可靠
-
+#没有必要，反正是覆盖，又不是追加。
 
 for DBnameS in $DBname
 do
